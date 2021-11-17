@@ -47,6 +47,6 @@ a{
 }
 
 #button:hover{
-    transform: scale(1.09);/*O objetivo do transform é, de fato, transformar o elementp, existem várias valores, como rotacionar o elemento, ampliar o elemento e afins*/
+    transform: scale(1.1);/*O objetivo do transform é, de fato, transformar o elementp, existem várias valores, como rotacionar o elemento, ampliar o elemento e afins*/
     background-color: #f51436;
 }
