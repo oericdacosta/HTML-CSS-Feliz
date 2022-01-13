@@ -1,0 +1,19 @@
+.button{
+    display: inline-block;/*por padrão, o display na tag <a> vem como inline, não tornando possível alterar a altura e nem a largura, usando o inline-block, isso é possível*/
+    background-color: #f25a70;
+    /*height: 60px;
+    line-height: 60px;/*Uma tecnica de alinhamento é fazer o height e o line-height terem o msm valor*/
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    cursor:copy;
+    transition: transform 200ms linear;/*o transition serve para fazer uma transição de valores de uma porpriedade, pois com ela é possível realizar um ação tanto no hover quanto sem o hover, basicamente é possível fazer uma animação*/
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button:hover{
+    transform: scale(1.1);/*O objetivo do transform é, de fato, transformar o elementp, existem várias valores, como rotacionar o elemento, ampliar o elemento e afins*/
+    background-color: #f51436;
+}
