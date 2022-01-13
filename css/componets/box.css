@@ -1,4 +1,4 @@
-#box{
+.box{
     display: inline-block;/*Por padrão a div é display block*/
     background-color: #3A4042;
     box-shadow: 10px 10px 0 #000;
@@ -8,6 +8,6 @@
     padding: 42px 44px;
 }
 
-#box h1{/*Isso está dizendo para ir a ID box, pegando TODOS os filhos(por isso o espaçamento) que tem h1*/
+.box .title{/*Isso está dizendo para ir a ID box, pegando TODOS os filhos(por isso o espaçamento) que tem h1*/
     margin-bottom: 28px;
 }
