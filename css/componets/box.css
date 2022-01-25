@@ -8,6 +8,6 @@
     padding: 42px 44px;
 }
 
-.box .title{/*Isso está dizendo para ir a ID box, pegando TODOS os filhos(por isso o espaçamento) que tem h1*/
+.box .main-title{/*Isso está dizendo para ir a ID box, pegando TODOS os filhos(por isso o espaçamento) que tem h1*/
     margin-bottom: 28px;
 }
