@@ -1,4 +1,4 @@
-.button{
+.main-button{
     display: inline-block;/*por padrão, o display na tag <a> vem como inline, não tornando possível alterar a altura e nem a largura, usando o inline-block, isso é possível*/
     background-color: #f25a70;
     /*height: 60px;
@@ -13,7 +13,7 @@
     text-decoration: none;
 }
 
-.button:hover{
+.main-button:hover{
     transform: scale(1.1);/*O objetivo do transform é, de fato, transformar o elementp, existem várias valores, como rotacionar o elemento, ampliar o elemento e afins*/
     background-color: #f51436;
 }
