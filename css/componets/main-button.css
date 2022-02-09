@@ -17,3 +17,12 @@
     transform: scale(1.1);/*O objetivo do transform é, de fato, transformar o elementp, existem várias valores, como rotacionar o elemento, ampliar o elemento e afins*/
     background-color: #f51436;
 }
+
+.main-button.-full{
+    width: 100%;
+    cursor: pointer;
+}
+
+.main-button.main-button.-full:hover{
+    transform: scale(1);
+}
